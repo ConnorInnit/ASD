@@ -50,9 +50,6 @@ st.write(f"Estimated cost of stone: £{stone_cost:.2f}")
 st.write(f"Estimated cost of labor per square meter: £{labor_cost_per_square_meter:.2f}")
 st.write(f"Estimated cost of labor per hour: £{labor_cost_per_hour:.2f}")
 
-# Show a cool stone wall image
-st.image("stone_wall.jpg", caption="Dry Stone Wall", use_column_width=True)
-
 # Add some explanations and a link to more information
 st.markdown("### Additional Information")
 st.write("Dry stone walls are a traditional and sustainable construction technique.")
