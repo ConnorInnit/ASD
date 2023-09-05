@@ -3,9 +3,7 @@ from PIL import Image
 
 # Set page configuration, including the favicon
 st.set_page_config(
-    page_title="Dry Stone Wall Calculator",
-    page_icon="🧱",  # You can specify an emoji as an example
-    layout="centered",  # Center-align the content
+    page_icon="🧱",  #Emoji for page icon
 )
 
 # Constants based on research (replace with actual values)
