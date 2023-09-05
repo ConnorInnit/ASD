@@ -1,6 +1,13 @@
 import streamlit as st
 from PIL import Image
 
+# Set page configuration, including the favicon
+st.set_page_config(
+    page_title="Dry Stone Wall Calculator",
+    page_icon="🧱",  # You can specify an emoji as an example
+    layout="centered",  # Center-align the content
+)
+
 # Constants based on research (replace with actual values)
 STONE_COST_PER_TON = 189  # Replace with the actual cost per ton of stone
 LABOR_COST_PER_SQUARE_METER = 200  # £200 per square meter
