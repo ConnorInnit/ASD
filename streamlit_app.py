@@ -1,10 +1,10 @@
 import streamlit as st
 from PIL import Image
 
-# Constants based on research (replace with actual values)
-STONE_COST_PER_TON = 189  # Replace with the actual cost per ton of stone
-LABOR_COST_PER_SQUARE_METER = 200  # £200 per square meter
-LABOR_COST_PER_HOUR = 32  # £25 per hour
+# Constants based on research
+STONE_COST_PER_TON = 189 #Cost per ton provided from research
+LABOR_COST_PER_SQUARE_METER = 200 #Cost per square metre provided by research
+LABOR_COST_PER_HOUR = 32  #cost per hour provided from Research
 
 # Function to calculate tonnage of stone required
 def calculate_stone_tonnage(length, height):
@@ -13,17 +13,17 @@ def calculate_stone_tonnage(length, height):
     stone_tonnage = wall_area * stone_density
     return stone_tonnage
 
-# Function to estimate the cost of stone
+# Function to calculate the cost of stone
 def estimate_stone_cost(tonnage):
     return tonnage * STONE_COST_PER_TON
 
-# Function to estimate the cost of labor based on square meter rate
+# Function to calculate the cost of labor based on square meter rate
 def estimate_labor_cost_per_square_meter(length, height):
     wall_area = length * height
     labor_cost = wall_area * LABOR_COST_PER_SQUARE_METER
     return labor_cost
 
-# Function to estimate the cost of labor based on hourly rate
+# Function to calculate the cost of labor based on hourly rate
 def estimate_labor_cost_per_hour(length, height):
     labor_hours = length * height * 8  # Assuming 8 hours of labor per square meter
     labor_cost = labor_hours * LABOR_COST_PER_HOUR
@@ -44,6 +44,7 @@ st.header("Estimate the Cost of Building a Dry Stone Wall")
 st.sidebar.title("Wall Dimensions")
 height = st.sidebar.number_input("Height (meters):", min_value=0.1, value=1.0, step=0.1)
 length = st.sidebar.number_input("Length (meters):", min_value=1.0, value=10.0, step=1.0)
+st.write("Please press enter to complete execute the calculation")
 
 #UHI image displayed
 st.image("https://www.uhi.ac.uk/en/t4-media/one-web/university/admin-assets/img/logos/card-logo.jpg", 
