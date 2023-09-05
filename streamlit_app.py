@@ -30,13 +30,6 @@ def estimate_labor_cost_per_hour(length, height):
     return labor_cost
 
 # Streamlit app
-st.set_page_config(
-    page_title="Dry Stone Wall Calculator",
-    page_icon=":mountain:",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
-
 st.title("Dry Stone Wall Calculator")
 st.header("Estimate the Cost of Building a Dry Stone Wall")
 
@@ -57,12 +50,14 @@ labor_cost_per_hour = estimate_labor_cost_per_hour(length, height)
 
 # Display the results underneath UHI image
 st.subheader("Results")
-st.write(f"Tonnage of stone required: {stone_tonnage:.2f} tonnes")
-st.write(f"Estimated cost of stone: £{stone_cost:.2f}")
-st.write(f"Estimated cost of labor per square meter: £{labor_cost_per_square_meter:.2f}")
-st.write(f"Estimated cost of labor per hour: £{labor_cost_per_hour:.2f}")
+with st.container():
+    st.write(f"Tonnage of stone required: {stone_tonnage:.2f} tonnes")
+    st.write(f"Estimated cost of stone: £{stone_cost:.2f}")
+    st.write(f"Estimated cost of labor per square meter: £{labor_cost_per_square_meter:.2f}")
+    st.write(f"Estimated cost of labor per hour: £{labor_cost_per_hour:.2f}")
 
 # Links and more information
 st.markdown("### Additional Information")
-st.write("Dry stone walls are a traditional and sustainable construction technique.")
-st.write("For more information, check out [Dry Stone Wall Association of Great Britain (DSWA)](https://www.dswa.org.uk/).")
+with st.container():
+    st.write("Dry stone walls are a traditional and sustainable construction technique.")
+    st.write("For more information, check out [Dry Stone Wall Association of Great Britain (DSWA)](https://www.dswa.org.uk/).")
