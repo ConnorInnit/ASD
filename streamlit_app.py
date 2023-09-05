@@ -44,7 +44,7 @@ st.header("Estimate the Cost of Building a Dry Stone Wall")
 st.sidebar.title("Wall Dimensions")
 height = st.sidebar.number_input("Height (meters):", min_value=0.1, value=1.0, step=0.1)
 length = st.sidebar.number_input("Length (meters):", min_value=1.0, value=10.0, step=1.0)
-st.write("Please press enter to complete execute the calculation")
+st.sidebar.write("Please press enter to complete execute the calculation")
 
 #UHI image displayed
 st.image("https://www.uhi.ac.uk/en/t4-media/one-web/university/admin-assets/img/logos/card-logo.jpg", 
