@@ -46,7 +46,7 @@ height = st.sidebar.number_input("Height (meters):", min_value=0.1, value=1.0, s
 length = st.sidebar.number_input("Length (meters):", min_value=1.0, value=10.0, step=1.0)
 
 # UHI image displayed
-image = Image.open("uhi_logo.jpg")
+image = Image.open("https://www.uhi.ac.uk/en/t4-media/one-web/university/admin-assets/img/logos/card-logo.jpg)
 st.sidebar.image(image, caption="", use_column_width=True)
 
 # Calculate values under header
