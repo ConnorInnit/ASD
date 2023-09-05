@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 
 # Constants based on research (replace with actual values)
 STONE_COST_PER_TON = 189  # Replace with the actual cost per ton of stone
