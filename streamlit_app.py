@@ -31,10 +31,12 @@ def estimate_labor_cost_per_hour(length, height):
 
 # Streamlit app
 st.set_page_config(
-    page_title="Dry Stone Wall Calculator",
-    page_icon=":mountain:",
-    layout="wide",
+    page_title="Dry Stone Wall Calculator", #page title
+    page_icon="🧱",  #Emoji for page icon
+    layout="wide", #layout type
     initial_sidebar_state="expanded",
+
+)
 )
 
 st.title("Dry Stone Wall Calculator")
