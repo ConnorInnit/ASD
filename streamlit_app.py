@@ -3,7 +3,7 @@ import streamlit as st
 # Constants based on research (replace with actual values)
 STONE_COST_PER_TON = 189  # Replace with the actual cost per ton of stone
 LABOR_COST_PER_SQUARE_METER = 200  # £200 per square meter
-LABOR_COST_PER_HOUR = 25  # £25 per hour
+LABOR_COST_PER_HOUR = 32# £25 per hour
 
 # Function to calculate tonnage of stone required
 def calculate_stone_tonnage(length, height):
