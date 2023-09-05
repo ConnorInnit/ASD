@@ -35,8 +35,6 @@ st.set_page_config(
     page_icon="🧱",  #Emoji for page icon
     layout="wide", #layout type
     initial_sidebar_state="expanded",
-
-)
 )
 
 st.title("Dry Stone Wall Calculator")
