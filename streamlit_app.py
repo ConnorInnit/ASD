@@ -37,8 +37,8 @@ def estimate_labor_cost_per_hour(length, height):
 st.title("Dry Stone Wall Calculator")
 
 # User inputs
-height = st.number_input("Enter the height of the wall in meters:")
-length = st.number_input("Enter the length of the wall in meters:")
+height = st.number_input("Please enter the height of the wall in meters:")
+length = st.number_input("Please enter the length of the wall in meters:")
 
 # Calculate values
 stone_tonnage = calculate_stone_tonnage(length, height)
