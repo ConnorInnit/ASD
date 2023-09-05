@@ -38,23 +38,24 @@ st.sidebar.title("Wall Dimensions")
 height = st.sidebar.number_input("Height (meters):", min_value=0.1, value=1.0, step=0.1)
 length = st.sidebar.number_input("Length (meters):", min_value=1.0, value=10.0, step=1.0)
 
+#UHI image displayed
 st.image("https://www.uhi.ac.uk/en/t4-media/one-web/university/admin-assets/img/logos/card-logo.jpg", 
           caption="", use_column_width=True)
 
-# Calculate values
+# Calculate values under header
 stone_tonnage = calculate_stone_tonnage(length, height)
 stone_cost = estimate_stone_cost(stone_tonnage)
 labor_cost_per_square_meter = estimate_labor_cost_per_square_meter(length, height)
 labor_cost_per_hour = estimate_labor_cost_per_hour(length, height)
 
-# Display the results in the main content area
+# Display the results underneath UHI image
 st.subheader("Results")
 st.write(f"Tonnage of stone required: {stone_tonnage:.2f} tonnes")
 st.write(f"Estimated cost of stone: £{stone_cost:.2f}")
 st.write(f"Estimated cost of labor per square meter: £{labor_cost_per_square_meter:.2f}")
 st.write(f"Estimated cost of labor per hour: £{labor_cost_per_hour:.2f}")
 
-# Add some explanations and a link to more information
+# links and more information
 st.markdown("### Additional Information")
 st.write("Dry stone walls are a traditional and sustainable construction technique.")
 st.write("For more information, check out [Dry Stone Wall Association of Great Britain (DSWA)](https://www.dswa.org.uk/).")
