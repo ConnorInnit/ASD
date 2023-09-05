@@ -37,7 +37,7 @@ st.sidebar.title("Wall Dimensions")
 height = st.sidebar.number_input("Height (meters):", min_value=0.1, value=1.0, step=0.1)
 length = st.sidebar.number_input("Length (meters):", min_value=1.0, value=10.0, step=1.0)
 
-st.image("https://github.com/ConnorInnit/ASD/raw/main/assets/62507982/662debea-d3f4-448c-bf68-7ffda2db04a2.jpg", 
+st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.uhi.ac.uk%2F&psig=AOvVaw3brRATp0rN4nKSGQWdRZe1&ust=1694011485148000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCKj6rNjak4EDFQAAAAAdAAAAABAE", 
           caption="Card Logo", use_column_width=True)
 
 # Calculate values
