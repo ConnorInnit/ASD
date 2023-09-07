@@ -40,7 +40,7 @@ st.set_page_config(
 st.title("Dry Stone Wall Calculator")
 st.header("Estimate the Cost of Building a Dry Stone Wall")
 
-if st.expander("Wall Dimesions", expanded=False):
+if not st.expander("Wall Dimesions", expanded=False):
     st.write("Please click the arrow on the left to enter your desired wall dimensions")
 
 # Sidebar with user inputs
