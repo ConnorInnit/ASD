@@ -67,3 +67,5 @@ st.write(f"Estimated total cost of labor based on an hourly rate: £{labor_cost_
 st.markdown("### Additional Information")
 st.write("Dry stone walls are a traditional and sustainable construction technique.")
 st.write("For more information, check out [Dry Stone Wall Association of Great Britain (DSWA)](https://www.dswa.org.uk/).")
+
+st.markdown("## Disclaimer")
