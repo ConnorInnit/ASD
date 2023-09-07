@@ -41,7 +41,8 @@ st.title("Dry Stone Wall Calculator")
 st.header("Estimate the Cost of Building a Dry Stone Wall")
 
 
-if sidebar_state = "expanded"
+if 'Wall Dimensions' not in st.session_state:
+    st.session_state.sbstate = 'collapsed'
     st.write("Please click the arrow on the left to enter your desired wall dimensions")
 if sidebar_state = ("expanded"=True):
     st.write("Please input Dimesions")
