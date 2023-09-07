@@ -64,8 +64,12 @@ st.write(f"Estimated total cost of labor based per square meter: £{labor_cost_p
 st.write(f"Estimated total cost of labor based on an hourly rate: £{labor_cost_per_hour:.2f}")
 
 # Links and more information
-st.markdown("### Additional Information")
+st.markdown("##### Additional Information")
 st.write("Dry stone walls are a traditional and sustainable construction technique.")
 st.write("For more information, check out [Dry Stone Wall Association of Great Britain (DSWA)](https://www.dswa.org.uk/).")
 
 st.markdown("#### Disclaimer")
+st.write("Labour prices are based on an average range of different Stonemason rates throughtout the UK, prices will vary depending on Stonemasons experience")
+st.write("Stone prices are based on Sand Stone and Mixed Stone, With research conducted relevant to the UK current prices (2023).")
+st.write("The calculations outputted by this calculator may not be 100% accurate, for a quote check out [Register of DSWA Professional Wallers](https://www.dswa.org.uk/members/#:~:text=Professionals%20by%20location).")
+
