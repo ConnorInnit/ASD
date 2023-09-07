@@ -51,7 +51,6 @@ st.sidebar.write("Please press enter to execute the calculation")
 st.image(
     "https://www.uhi.ac.uk/en/t4-media/one-web/university/admin-assets/img/logos/card-logo.jpg",
     caption="",
-    use_column_width=True,
 )
 
 # Calculate values under header
