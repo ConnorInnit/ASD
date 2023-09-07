@@ -42,9 +42,8 @@ st.header("Estimate the Cost of Building a Dry Stone Wall")
 
 
 if 'Wall Dimensions' not in st.session_state:
-    st.session_state.sbstate = 'collapsed'
     st.write("Please click the arrow on the left to enter your desired wall dimensions")
-if sidebar_state = ("expanded"=True):
+if 'Wall Dimensions' in st.session_state:
     st.write("Please input Dimesions")
 
 # Sidebar with user inputs
