@@ -42,6 +42,7 @@ st.header("Estimate the Cost of Building a Dry Stone Wall")
 
 if st.expander("Wall Dimesions", expanded=True):
     st.write("Please click the arrow on the left to enter your desired wall dimensions")
+    else st.write("Please input Dimesions")
 
 # Sidebar with user inputs
 st.sidebar.title("Wall Dimensions")
