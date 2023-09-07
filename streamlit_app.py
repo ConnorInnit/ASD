@@ -60,8 +60,8 @@ labor_cost_per_hour = estimate_labor_cost_per_hour(length, height)
 st.subheader("Results")
 st.write(f"Tonnage of stone required: {stone_tonnage:.2f} tonnes")
 st.write(f"Estimated cost of stone: £{stone_cost:.2f}")
-st.write(f"Estimated cost of labor per square meter: £{labor_cost_per_square_meter:.2f}")
-st.write(f"Estimated cost of labor per hour: £{labor_cost_per_hour:.2f}")
+st.write(f"Estimated total cost of labor based per square meter: £{labor_cost_per_square_meter:.2f}")
+st.write(f"Estimated total cost of labor based on an hourly rate: £{labor_cost_per_hour:.2f}")
 
 # Links and more information
 st.markdown("### Additional Information")
