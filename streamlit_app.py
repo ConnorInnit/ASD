@@ -31,16 +31,16 @@ def estimate_labor_cost_per_hour(length, height):
 
 # Streamlit app
 st.set_page_config(
-    page_title="Dry Stone Wall Calculator",  # Page title
-    page_icon="🧱",  # Emoji for page icon
-    layout="wide",  # Layout type
-    initial_sidebar_state="expanded",
+    page_title= "Dry Stone Wall Calculator",  # Page title
+    page_icon= "🧱",  # Emoji for page icon
+    layout= "wide",  # Layout type
+    initial_sidebar_state= "expanded",
 )
 
 st.title("Dry Stone Wall Calculator")
 st.header("Estimate the Cost of Building a Dry Stone Wall")
 
-if st.expander("Wall Dimesions", expanded=False):
+if "Wall Dimesions" not  = "expanded":
     st.write("Please click the arrow on the left to enter your desired wall dimensions")
 else: st.write("Please input Dimesions")
 
