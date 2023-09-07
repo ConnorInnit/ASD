@@ -68,4 +68,4 @@ st.markdown("### Additional Information")
 st.write("Dry stone walls are a traditional and sustainable construction technique.")
 st.write("For more information, check out [Dry Stone Wall Association of Great Britain (DSWA)](https://www.dswa.org.uk/).")
 
-st.markdown("## Disclaimer")
+st.markdown("#### Disclaimer")
