@@ -75,7 +75,7 @@ st.write("For more information, check out [Dry Stone Wall Association of Great B
 
 st.markdown("#### Disclaimer")
 st.write("Labour prices are based on an average range of different Stonemason rates throughout the UK; prices will vary depending on Stonemasons' experience.")
-st.write("Stone prices are based on Sand Stone and Mixed Stone, with research conducted relevant to the UK current prices (2023).")
+st.write("Stone prices are based on Sand Stone and Mixed Stone, with research conducted relevant to the current UK prices (2023).")
 st.write("The calculations outputted by this calculator may not be 100% accurate; for a quote, check out [Register of DSWA Professional Wallers](https://www.dswa.org.uk/members/#:~:text=Professionals%20by%20location).")
 
 
